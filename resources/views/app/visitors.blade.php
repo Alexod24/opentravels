@@ -8,7 +8,7 @@
                 <div class="flex items-center gap-x-4 border-b border-gray-900/5 bg-gray-50 p-6">
                     <img src="https://tailwindui.com/img/logos/48x48/tuple.svg" alt="Tuple"
                         class="h-12 w-12 flex-none rounded-lg bg-white object-cover ring-1 ring-gray-900/10">
-                    <div class="text-sm font-medium leading-6 text-gray-900">Tuple</div>
+                    <div class="text-sm font-medium leading-6 text-gray-900">Latam</div>
                     <div class="relative ml-auto">
                         <button type="button" class="-m-2.5 block p-2.5 text-gray-400 hover:text-gray-500"
                             id="options-menu-0-button" aria-expanded="false" aria-haspopup="true">
@@ -42,11 +42,11 @@
                 </div>
                 <dl class="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                     <div class="flex justify-between gap-x-4 py-3">
-                        <dt class="text-gray-500">Last invoice</dt>
+                        <dt class="text-gray-500">Última factura</dt>
                         <dd class="text-gray-700"><time datetime="2022-12-13">December 13, 2022</time></dd>
                     </div>
                     <div class="flex justify-between gap-x-4 py-3">
-                        <dt class="text-gray-500">Amount</dt>
+                        <dt class="text-gray-500">Cantidad</dt>
                         <dd class="flex items-start gap-x-2">
                             <div class="font-medium text-gray-900">$2,000.00</div>
                             <div
@@ -64,7 +64,7 @@
                     <div class="relative ml-auto">
                         <button type="button" class="-m-2.5 block p-2.5 text-gray-400 hover:text-gray-500"
                             id="options-menu-1-button" aria-expanded="false" aria-haspopup="true">
-                            <span class="sr-only">Open options</span>
+                            <span class="sr-only">Opciones abiertas</span>
                             <svg class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                                 <path
                                     d="M3 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM8.5 10a1.5 1.5 0 113 0 1.5 1.5 0 01-3 0zM15.5 8.5a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" />
@@ -94,16 +94,16 @@
                 </div>
                 <dl class="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                     <div class="flex justify-between gap-x-4 py-3">
-                        <dt class="text-gray-500">Last invoice</dt>
+                        <dt class="text-gray-500">Última factura</dt>
                         <dd class="text-gray-700"><time datetime="2023-01-22">January 22, 2023</time></dd>
                     </div>
                     <div class="flex justify-between gap-x-4 py-3">
-                        <dt class="text-gray-500">Amount</dt>
+                        <dt class="text-gray-500">Cantidad</dt>
                         <dd class="flex items-start gap-x-2">
                             <div class="font-medium text-gray-900">$14,000.00</div>
                             <div
                                 class="rounded-md py-1 px-2 text-xs font-medium ring-1 ring-inset text-green-700 bg-green-50 ring-green-600/20">
-                                Paid</div>
+                                Pagada</div>
                         </dd>
                     </div>
                 </dl>
@@ -146,16 +146,16 @@
                 </div>
                 <dl class="-my-3 divide-y divide-gray-100 px-6 py-4 text-sm leading-6">
                     <div class="flex justify-between gap-x-4 py-3">
-                        <dt class="text-gray-500">Last invoice</dt>
+                        <dt class="text-gray-500">Última factura</dt>
                         <dd class="text-gray-700"><time datetime="2023-01-23">January 23, 2023</time></dd>
                     </div>
                     <div class="flex justify-between gap-x-4 py-3">
-                        <dt class="text-gray-500">Amount</dt>
+                        <dt class="text-gray-500">Cantidad</dt>
                         <dd class="flex items-start gap-x-2">
                             <div class="font-medium text-gray-900">$7,600.00</div>
                             <div
                                 class="rounded-md py-1 px-2 text-xs font-medium ring-1 ring-inset text-green-700 bg-green-50 ring-green-600/20">
-                                Paid</div>
+                                Pagada</div>
                         </dd>
                     </div>
                 </dl>
@@ -177,15 +177,15 @@
                         </p>
                         <p class="mt-1 flex text-xs leading-5 text-gray-500">
                             <a href="mailto:leslie.alexander@example.com"
-                                class="relative truncate hover:underline">leslie.alexander@example.com</a>
+                                class="relative truncate hover:underline">leslie.alexander@gmail.com</a>
                         </p>
                     </div>
                 </div>
                 <div class="flex shrink-0 items-center gap-x-4">
                     <div class="hidden sm:flex sm:flex-col sm:items-end">
-                        <p class="text-sm leading-6 text-gray-900">Co-Founder / CEO</p>
-                        <p class="mt-1 text-xs leading-5 text-gray-500">Last seen <time datetime="2023-01-23T13:23Z">3h
-                                ago</time></p>
+                        <p class="text-sm leading-6 text-gray-900">Co-Fundador / CEO</p>
+                        <p class="mt-1 text-xs leading-5 text-gray-500">Ultima vez visto <time datetime="2023-01-23T13:23Z">hace 3horas
+                                </time></p>
                     </div>
                     <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor"
                         aria-hidden="true">
@@ -215,8 +215,8 @@
                 </div>
                 <div class="flex shrink-0 items-center gap-x-4">
                     <div class="hidden sm:flex sm:flex-col sm:items-end">
-                        <p class="text-sm leading-6 text-gray-900">Co-Founder / CTO</p>
-                        <p class="mt-1 text-xs leading-5 text-gray-500">Last seen <time datetime="2023-01-23T13:23Z">3h
+                        <p class="text-sm leading-6 text-gray-900">Turista novato</p>
+                        <p class="mt-1 text-xs leading-5 text-gray-500">Ultima vez visto <time datetime="2023-01-23T13:23Z">3h
                                 ago</time></p>
                     </div>
                     <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor"
@@ -247,7 +247,7 @@
                 </div>
                 <div class="flex shrink-0 items-center gap-x-4">
                     <div class="hidden sm:flex sm:flex-col sm:items-end">
-                        <p class="text-sm leading-6 text-gray-900">Business Relations</p>
+                        <p class="text-sm leading-6 text-gray-900">Licenciado en turismo</p>
                         <div class="mt-1 flex items-center gap-x-1.5">
                             <div class="flex-none rounded-full bg-emerald-500/20 p-1">
                                 <div class="h-1.5 w-1.5 rounded-full bg-emerald-500"></div>
@@ -283,8 +283,8 @@
                 </div>
                 <div class="flex shrink-0 items-center gap-x-4">
                     <div class="hidden sm:flex sm:flex-col sm:items-end">
-                        <p class="text-sm leading-6 text-gray-900">Front-end Developer</p>
-                        <p class="mt-1 text-xs leading-5 text-gray-500">Last seen <time datetime="2023-01-23T13:23Z">3h
+                        <p class="text-sm leading-6 text-gray-900">Turista apasionada</p>
+                        <p class="mt-1 text-xs leading-5 text-gray-500">Ultima vez visto <time datetime="2023-01-23T13:23Z">3h
                                 ago</time></p>
                     </div>
                     <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor"
@@ -315,8 +315,8 @@
                 </div>
                 <div class="flex shrink-0 items-center gap-x-4">
                     <div class="hidden sm:flex sm:flex-col sm:items-end">
-                        <p class="text-sm leading-6 text-gray-900">Designer</p>
-                        <p class="mt-1 text-xs leading-5 text-gray-500">Last seen <time datetime="2023-01-23T13:23Z">3h
+                        <p class="text-sm leading-6 text-gray-900">Diseñador</p>
+                        <p class="mt-1 text-xs leading-5 text-gray-500">Ultima vez visto <time datetime="2023-01-23T13:23Z">3h
                                 ago</time></p>
                     </div>
                     <svg class="h-5 w-5 flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor"
@@ -347,7 +347,7 @@
                 </div>
                 <div class="flex shrink-0 items-center gap-x-4">
                     <div class="hidden sm:flex sm:flex-col sm:items-end">
-                        <p class="text-sm leading-6 text-gray-900">Director of Product</p>
+                        <p class="text-sm leading-6 text-gray-900">Directora de Producto</p>
                         <div class="mt-1 flex items-center gap-x-1.5">
                             <div class="flex-none rounded-full bg-emerald-500/20 p-1">
                                 <div class="h-1.5 w-1.5 rounded-full bg-emerald-500"></div>
@@ -366,13 +366,13 @@
         </ul>
 
 
-        <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">Tus paquetes más visitados</h2>
+        <h2 class="mt-8 text-2xl font-bold tracking-tight text-gray-900">Tus lugares recientemente visitados</h2>
 
         <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.unsplash.com/photo-1556648011-e01aca870a81"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -392,7 +392,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.pexels.com/photos/9138040/pexels-photo-9138040.jpeg"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -412,7 +412,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.unsplash.com/photo-1528164344705-47542687000d"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -432,7 +432,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.pexels.com/photos/887848/pexels-photo-887848.jpeg"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -452,7 +452,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.unsplash.com/photo-1517713982677-4b66332f98de"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -472,7 +472,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://plus.unsplash.com/premium_photo-1678597143479-c4655b8f0b1b"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -492,7 +492,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.unsplash.com/photo-1549877452-9c387954fbc2"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -512,7 +512,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.unsplash.com/photo-1556905200-279565513a2d"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -532,7 +532,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.pexels.com/photos/822528/pexels-photo-822528.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -552,7 +552,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.unsplash.com/photo-1528164344705-47542687000d"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
@@ -572,7 +572,7 @@
             <div class="group relative">
                 <div
                     class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg"
+                    <img src="https://images.pexels.com/photos/428431/pexels-photo-428431.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                         alt="Front of men&#039;s Basic Tee in black."
                         class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                 </div>
