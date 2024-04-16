@@ -17,7 +17,8 @@
 
       <div class="mt-10">
         <div>
-          <form action="#" method="POST" class="space-y-6">
+          <form method="POST" class="space-y-6" action="{{route('create-user')}}">
+             @csrf
             <div>
               <label for="name" class="block text-sm font-medium leading-6 text-gray-900">Ingrese su nombre completo</label>
               <div class="mt-2">

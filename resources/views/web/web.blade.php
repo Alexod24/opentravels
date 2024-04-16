@@ -52,6 +52,7 @@
             <a href="#features" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Características</a>
             <a href="#contact" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contactanos</a>
             <a href="#faq" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Preguntas</a>
+            <a href="https://paypal.me/yerikah"  class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Donar</a>
           </div>
           <div class="py-6">
             <a href="/register" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Registrarse</a>
@@ -66,7 +67,7 @@
 
 
 
-  <div class="relative bg-white">
+  <section class="relative bg-white">
     <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
       <div class="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
         <div class="mx-auto max-w-2xl lg:mx-0">
@@ -88,9 +89,9 @@
         <img class="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full" src="https://images.unsplash.com/photo-1498758536662-35b82cd15e29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2102&q=80" alt="">
       </div>
     </div>
-  </div>
+</section>
 
-  <div class="bg-white py-24 sm:py-32">
+  <section class="bg-white py-24 sm:py-32" >
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <h2 class="text-center text-lg font-semibold leading-8 text-gray-900">Con la confianza de los más importantes del mundo
         equipos innovadores</h2>
@@ -102,9 +103,9 @@
         <img class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1" src="https://tailwindui.com/img/logos/158x48/statamic-logo-gray-900.svg" alt="Statamic" width="158" height="48">
       </div>
     </div>
-  </div>
+</section>
 
-  <div class="overflow-hidden bg-white py-24 sm:py-32">
+  <section class="overflow-hidden bg-white py-24 sm:py-32" id="features">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4 lg:pt-4">
@@ -150,11 +151,11 @@
         </div>
       </div>
     </div>
-  </div>
+</section>
 
 
 
-  <div class="bg-white py-24 sm:py-32">
+  <section class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
         <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">La aplicación de tus sueños, es gratis</h2>
@@ -185,14 +186,14 @@
         </div>
       </div>
     </div>
-  </div>
+</section>
 
 
 
 
 
 
-  <div class="bg-white py-24 sm:py-32">
+  <section class="bg-white py-24 sm:py-32" id="contact">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
         <div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
@@ -294,54 +295,45 @@
         </div>
       </div>
     </div>
-  </div>
+</section>
 
-  <div class="bg-white">
+  <section class="bg-white" id="faq">
     <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8">
       <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">Preguntas frecuentes</h2>
       <p class="mt-6 max-w-2xl text-base leading-7 text-gray-600">¿Tienes una pregunta diferente y no encuentras la respuesta que buscas? <a href="#" class="font-semibold text-emerald-600 hover:text-emerald-500">sending us an email</a> Comuníquese con nuestro equipo de soporte enviándonos un correo electrónico y nos comunicaremos con usted lo antes posible.</p>
       <div class="mt-20">
         <dl class="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:gap-x-10">
           <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Qué es este sistema para turistas y cómo puede beneficiarme durante mi viaje?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Este sistema es una plataforma diseñada para proporcionar a los turistas información útil y servicios prácticos durante su visita a una ciudad o destino turístico. Puedes utilizarlo para descubrir atracciones, encontrar restaurantes recomendados, reservar alojamiento y actividades, obtener consejos de viaje y mucho más.</dd>
+            <dt class="text-base font-semibold leading-7 text-gray-900">¿Cómo puedo registrarme en OpenTravels?</dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Para registrarte en OpenTravels, simplemente ve a la página de inicio y haz clic en el botón "Registrarse". Luego, sigue las instrucciones para completar el formulario de registro con tu nombre de usuario, contraseña y cualquier otra información requerida.</dd>
           </div>
           <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Este sistema ofrece recomendaciones personalizadas basadas en mis intereses y preferencias?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Algunas funciones pueden estar disponibles fuera de línea, como acceder a información descargada previamente. Sin embargo, para funciones en tiempo real y actualizaciones, se requiere conexión a internet.</dd>
+            <dt class="text-base font-semibold leading-7 text-gray-900">¿Qué puedo hacer una vez que me haya registrado en OpenTravels?</dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Una vez registrado en OpenTravels, puedes comenzar a compartir tus experiencias de viaje. Agrega los lugares que has visitado a tu perfil, incluyendo fotos, descripciones y comentarios sobre tus experiencias. Además, puedes explorar los lugares que otros usuarios han visitado y encontrar inspiración para tus próximos viajes.</dd>
           </div>
           <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Cómo puedo acceder a este sistema mientras estoy de viaje? ¿Necesito descargar una aplicación o puedo acceder a través de un sitio web?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">En este sistema encontrarás información detallada sobre atracciones turísticas, restaurantes, eventos locales, transporte, alojamiento, actividades y mucho más. También podrás reservar servicios y recibir recomendaciones personalizadas según tus intereses y preferencias.</dd>
+            <dt class="text-base font-semibold leading-7 text-gray-900">¿Puedo utilizar OpenTravels en dispositivos móviles?</dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Sí, OpenTravels está diseñado para ser compatible con dispositivos móviles. Puedes acceder a la aplicación a través de tu navegador web en tu teléfono inteligente o tableta, lo que te permite compartir tus viajes y explorar nuevos lugares sobre la marcha.</dd>
           </div>
           <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Qué tipo de información y servicios puedo encontrar en este sistema?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Puedes acceder al sistema tanto a través de una aplicación móvil como de un sitio web. Si prefieres usar la aplicación, puedes descargarla desde la tienda de aplicaciones de tu dispositivo móvil. Si prefieres acceder a través del sitio web, simplemente visita la página principal desde tu navegador web..</dd>
+            <dt class="text-base font-semibold leading-7 text-gray-900"> ¿Es OpenTravels gratuito?</dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Sí, OpenTravels es completamente gratuito para todos los usuarios. No se requiere ningún pago ni suscripción para utilizar todas las funciones de la aplicación.</dd>
           </div>
           <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Puedo hacer reservas de alojamiento a través de este sistema?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Sí, puedes reservar alojamiento utilizando nuestro sistema. Ofrecemos una variedad de opciones para adaptarnos a tus necesidades y preferencias de viaje.</dd>
+            <dt class="text-base font-semibold leading-7 text-gray-900">¿Puedo ver los lugares que han visitado mis amigos en OpenTravels?</dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Sí, puedes conectar con amigos en OpenTravels y ver los lugares que han visitado. Además, puedes seguir a otros usuarios cuyas experiencias de viaje te interesen y ver sus perfiles para descubrir nuevos destinos.</dd>
           </div>
           <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Proporciona este sistema información sobre eventos locales?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Sí, nuestro sistema te mantendrá informado sobre eventos locales que están teniendo lugar durante tu visita, desde festivales hasta conciertos y exposiciones.</dd>
+            <dt class="text-base font-semibold leading-7 text-gray-900">¿Cómo puedo compartir mis experiencias de viaje en OpenTravels?</dt>
+            <dd class="mt-2 text-base leading-7 text-gray-600">Para compartir tus experiencias de viaje en OpenTravels, simplemente inicia sesión en tu cuenta y navega hasta la sección de "Agregar lugar". Completa la información solicitada, como el nombre del lugar, la ubicación, las fechas de visita, y agrega fotos y comentarios opcionales para enriquecer tu entrada. Una vez que hayas guardado la información, otros usuarios podrán ver y comentar tus publicaciones.</dd>
           </div>
 
-          <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Cómo puedo dejar comentarios o reseñas sobre mi experiencia?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Puedes dejar comentarios y reseñas sobre tu experiencia directamente en la aplicación o sitio web. Tu retroalimentación es valiosa para nosotros y para otros viajeros.</dd>
-          </div>
-          <div>
-            <dt class="text-base font-semibold leading-7 text-gray-900">¿Este sistema está disponible en varios idiomas?</dt>
-            <dd class="mt-2 text-base leading-7 text-gray-600">Sí, nuestro sistema está disponible en varios idiomas para satisfacer las necesidades de los turistas internacionales. Puedes seleccionar tu idioma preferido en la configuración..</dd>
-          </div>
-          <!-- More questions... -->
         </dl>
       </div>
     </div>
-  </div>
+</section>
 
-  <div class="bg-white">
+  <section class="bg-white">
     <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
       <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
         <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">¡Descubre OpenTravels y Mejora tu Experiencia de Viaje!</h2>
@@ -362,7 +354,7 @@
         </svg>
       </div>
     </div>
-  </div>
+</section>
 </main>
 
 <footer class="bg-gray-900" aria-labelledby="footer-heading">
