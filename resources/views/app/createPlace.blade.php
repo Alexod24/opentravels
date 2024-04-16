@@ -13,7 +13,8 @@
 
                 <div class="grid max-w-2xl grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6 md:col-span-2">
                     <div class="sm:col-span-4">
-                        <label for="website" class="block text-sm font-medium leading-6 text-gray-900">Nombre del lugar</label>
+                        <label for="website" class="block text-sm font-medium leading-6 text-gray-900">Nombre del
+                            lugar</label>
                         <input type="email" name="email" id="email"
                             class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                             placeholder="Nombre del lugar">
@@ -44,7 +45,7 @@
                                     <label for="file-upload"
                                         class="relative cursor-pointer rounded-md bg-white font-semibold text-emerald-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-emerald-600 focus-within:ring-offset-2 hover:text-emerald-500">
                                         <span>Upload a file</span>
-                                        <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                                        <input id="file-upload" name="file-upload" type="file" class="sr-only px-4 ">
                                     </label>
                                     <p class="pl-1">or drag and drop</p>
                                 </div>
@@ -68,7 +69,7 @@
                                     <label for="file-upload"
                                         class="relative cursor-pointer rounded-md bg-white font-semibold text-emerald-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-emerald-600 focus-within:ring-offset-2 hover:text-emerald-500">
                                         <span>Upload a file</span>
-                                        <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                                        <input id="file-upload" name="file-upload" type="file" class="px-4  sr-only">
                                     </label>
                                     <p class="pl-1">or drag and drop</p>
                                 </div>
@@ -91,7 +92,7 @@
                                     <label for="file-upload"
                                         class="relative cursor-pointer rounded-md bg-white font-semibold text-emerald-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-emerald-600 focus-within:ring-offset-2 hover:text-emerald-500">
                                         <span>Upload a file</span>
-                                        <input id="file-upload" name="file-upload" type="file" class="sr-only">
+                                        <input id="file-upload" name="file-upload" type="file" class="px-4  sr-only">
                                     </label>
                                     <p class="pl-1">or drag and drop</p>
                                 </div>
@@ -113,7 +114,7 @@
                         <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
                         <div class="mt-2">
                             <input type="text" name="first-name" id="first-name" autocomplete="given-name"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4  block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -121,7 +122,7 @@
                         <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
                         <div class="mt-2">
                             <input type="text" name="last-name" id="last-name" autocomplete="family-name"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -130,7 +131,7 @@
                             address</label>
                         <div class="mt-2">
                             <input id="email" name="email" type="email" autocomplete="email"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -150,8 +151,9 @@
                         <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Street
                             address</label>
                         <div class="mt-2">
-                            <input type="text" name="street-address" id="street-address" autocomplete="street-address"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                            <input type="text" name="street-address" id="street-address"
+                                autocomplete="street-address"
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -159,7 +161,7 @@
                         <label for="city" class="block text-sm font-medium leading-6 text-gray-900">City</label>
                         <div class="mt-2">
                             <input type="text" name="city" id="city" autocomplete="address-level2"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -168,7 +170,7 @@
                             Province</label>
                         <div class="mt-2">
                             <input type="text" name="region" id="region" autocomplete="address-level1"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -177,7 +179,7 @@
                             code</label>
                         <div class="mt-2">
                             <input type="text" name="postal-code" id="postal-code" autocomplete="postal-code"
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
                 </div>
@@ -197,7 +199,7 @@
                             <div class="relative flex gap-x-3">
                                 <div class="flex h-6 items-center">
                                     <input id="comments" name="comments" type="checkbox"
-                                        class="h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
+                                        class="px-4 h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
                                 </div>
                                 <div class="text-sm leading-6">
                                     <label for="comments" class="font-medium text-gray-900">Comments</label>
@@ -207,7 +209,7 @@
                             <div class="relative flex gap-x-3">
                                 <div class="flex h-6 items-center">
                                     <input id="candidates" name="candidates" type="checkbox"
-                                        class="h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
+                                        class="px-4 h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
                                 </div>
                                 <div class="text-sm leading-6">
                                     <label for="candidates" class="font-medium text-gray-900">Candidates</label>
@@ -217,7 +219,7 @@
                             <div class="relative flex gap-x-3">
                                 <div class="flex h-6 items-center">
                                     <input id="offers" name="offers" type="checkbox"
-                                        class="h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
+                                        class="px-4 h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
                                 </div>
                                 <div class="text-sm leading-6">
                                     <label for="offers" class="font-medium text-gray-900">Offers</label>
@@ -233,19 +235,19 @@
                         <div class="mt-6 space-y-6">
                             <div class="flex items-center gap-x-3">
                                 <input id="push-everything" name="push-notifications" type="radio"
-                                    class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-600">
+                                    class="px-4 h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-600">
                                 <label for="push-everything"
                                     class="block text-sm font-medium leading-6 text-gray-900">Everything</label>
                             </div>
                             <div class="flex items-center gap-x-3">
                                 <input id="push-email" name="push-notifications" type="radio"
-                                    class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-600">
+                                    class="px-4 h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-600">
                                 <label for="push-email" class="block text-sm font-medium leading-6 text-gray-900">Same as
                                     email</label>
                             </div>
                             <div class="flex items-center gap-x-3">
                                 <input id="push-nothing" name="push-notifications" type="radio"
-                                    class="h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-600">
+                                    class="px-4 h-4 w-4 border-gray-300 text-emerald-600 focus:ring-emerald-600">
                                 <label for="push-nothing" class="block text-sm font-medium leading-6 text-gray-900">No
                                     push notifications</label>
                             </div>

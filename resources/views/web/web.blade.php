@@ -6,22 +6,22 @@
   <nav class="mx-auto flex max-w-7xl items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
     <div class="flex lg:flex-1">
       <a href="#" class="-m-1.5 p-1.5">
-        <span class="sr-only">Your Company</span>
+        <span class="sr-only">OpenTravels</span>
         <img class="h-8 w-auto" src="{{ asset('assets/logo.png') }}" alt="OpenTravels">
       </a>
     </div>
     <div class="hidden lg:flex lg:gap-x-12">
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Producto</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Características</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Mercado</a>
-      <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Compañía</a>
+      <a href="#features" class="text-sm font-semibold leading-6 text-gray-900">Características</a>
+      <a href="#contact" class="text-sm font-semibold leading-6 text-gray-900">Contactanos</a>
+      <a href="#faq" class="text-sm font-semibold leading-6 text-gray-900">Preguntas</a>
+      <a href="https://paypal.me/yerikah" target="_blank" class="text-sm font-semibold leading-6 text-gray-900">Donar</a>
     </div>
     <div class="flex flex-1 items-center justify-end gap-x-6">
-      <a href="#" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Registrarse</a>
-      <a href="#" class="rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Iniciar sesion</a>
+      <a href="/register" class="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">Registrarse</a>
+      <a href="/login" class="rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Iniciar sesion</a>
     </div>
     <div class="flex lg:hidden">
-      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700">
+      <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" id="buttonOpenMenu">
         <span class="sr-only">Abrir menú principal</span>
         <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -29,19 +29,17 @@
       </button>
     </div>
   </nav>
-  <!-- Mobile menu, show/hide based on menu open state. -->
-  <div class="lg:hidden" role="dialog" aria-modal="true">
-    <!-- Background backdrop, show/hide based on slide-over state. -->
+  <div class="hidden" role="dialog" aria-modal="true" id="menuMobile">
     <div class="fixed inset-0 z-10"></div>
     <div class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
       <div class="flex items-center gap-x-6">
         <a href="#" class="-m-1.5 p-1.5">
-          <span class="sr-only">Tu compañía</span>
+          <span class="sr-only">OpenTravels</span>
           <img class="h-8 w-auto" src="{{ asset('assets/logo.png') }}" alt="OpenTravels">
         </a>
-        <a href="#" class="ml-auto rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Iniciar sesion
+        <a href="/login" class="ml-auto rounded-md bg-emerald-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Ingresar
         </a>
-        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700">
+        <button type="button" class="-m-2.5 rounded-md p-2.5 text-gray-700" id="buttonCloseMenu">
           <span class="sr-only">Cerrar menu</span>
           <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
             <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
@@ -51,14 +49,12 @@
       <div class="mt-6 flow-root">
         <div class="-my-6 divide-y divide-gray-500/10">
           <div class="space-y-2 py-6">
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Producto</a>
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Factura</a>
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Mercado</a>
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Compañia</a>
+            <a href="#features" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Características</a>
+            <a href="#contact" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Contactanos</a>
+            <a href="#faq" class="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Preguntas</a>
           </div>
           <div class="py-6">
-            <a href="#" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log
-              in</a>
+            <a href="/register" class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Registrarse</a>
           </div>
         </div>
       </div>
@@ -76,16 +72,15 @@
         <div class="mx-auto max-w-2xl lg:mx-0">
           <div class="hidden sm:mt-32 sm:flex lg:mt-16">
             <div class="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Anim auté id magna aliqua ad ad non deserunt sunt. <a href="#" class="whitespace-nowrap font-semibold text-emerald-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
+              Prueba nuestra aplicación, <a href="#" class="whitespace-nowrap font-semibold text-emerald-600"><span class="absolute inset-0" aria-hidden="true"></span>¡es completamente gratis! <span aria-hidden="true">&rarr;</span></a>
             </div>
           </div>
           <h1 class="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">Datos para hacer tu turismo mas facil</h1>
-          <p class="mt-6 text-lg leading-8 text-gray-600">Anim aute id magna aliqua ad ad non deserunt sunt.
-            Datos para enriquecer tu negocio online</p>
+          <p class="mt-6 text-lg leading-8 text-gray-600">Encuentra aquí toda la información que necesitas para planificar tu próximo viaje de manera sencilla y conveniente.</p>
           <div class="mt-10 flex items-center gap-x-6">
             <a href="#" class="rounded-md bg-emerald-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-emerald-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-emerald-600">Empezar con tu aventura
-              </a>
-            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Learn more <span aria-hidden="true">→</span></a>
+            </a>
+            <a href="#" class="text-sm font-semibold leading-6 text-gray-900">Ver características <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
@@ -114,28 +109,28 @@
       <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2">
         <div class="lg:ml-auto lg:pl-4 lg:pt-4">
           <div class="lg:max-w-lg">
-            <h2 class="text-base font-semibold leading-7 text-emerald-600">Implemente más rápido</h2>
-            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Un mejor destino turistico
+            <h2 class="text-base font-semibold leading-7 text-emerald-600">Lugares increíbles</h2>
+            <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Todo en nuestra aplicación
             </p>
-            <p class="mt-6 text-lg leading-8 text-gray-600">Descubre los secretos mejor guardados de nuestra ciudad, sumérgete en su rica historia, disfruta de su exquisita gastronomía y maravíllate con sus impresionantes paisajes. En [Nombre de la Ciudad], cada rincón cuenta una historia y cada calle te invita a explorar nuevas aventuras.</p>
+            <p class="mt-6 text-lg leading-8 text-gray-600">Con nuestra aplicación podrás guardar sus lugares turísticos favoritos, podrás guardar fotos y poder impresionar a todo el mundo con las fotografías de los paisajes que tomaste.</p>
             <dl class="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
               <div class="relative pl-9">
                 <dt class="inline font-semibold text-gray-900">
                   <svg class="absolute left-1 top-1 h-5 w-5 text-emerald-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
                   </svg>
-                  Tours Guiados:
+                  Publicar lugares:
                 </dt>
-                <dd class="inline">Descubre los lugares más emblemáticos de la ciudad de la mano de nuestros expertos guías locales.</dd>
+                <dd class="inline">Podrás publicar los lugares que visitaste y compartir con todo el mundo tus preferencias.</dd>
               </div>
               <div class="relative pl-9">
                 <dt class="inline font-semibold text-gray-900">
                   <svg class="absolute left-1 top-1 h-5 w-5 text-emerald-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
                   </svg>
-                  Experiencias Gastronómicas:
+                  Integrar fotografías:
                 </dt>
-                <dd class="inline">Embárcate en un viaje culinario para saborear los auténticos sabores de [Nombre de la Ciudad].</dd>
+                <dd class="inline">No solo podrás dar una descripción y una calificación a un lugar, también podrás integrar fotografías. </dd>
               </div>
               <div class="relative pl-9">
                 <dt class="inline font-semibold text-gray-900">
@@ -143,15 +138,15 @@
                     <path d="M4.632 3.533A2 2 0 016.577 2h6.846a2 2 0 011.945 1.533l1.976 8.234A3.489 3.489 0 0016 11.5H4c-.476 0-.93.095-1.344.267l1.976-8.234z" />
                     <path fill-rule="evenodd" d="M4 13a2 2 0 100 4h12a2 2 0 100-4H4zm11.24 2a.75.75 0 01.75-.75H16a.75.75 0 01.75.75v.01a.75.75 0 01-.75.75h-.01a.75.75 0 01-.75-.75V15zm-2.25-.75a.75.75 0 00-.75.75v.01c0 .414.336.75.75.75H13a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75h-.01z" clip-rule="evenodd" />
                   </svg>
-                  Transporte: 
+                  Explora otro lugares:
                 </dt>
-                <dd class="inline">Organiza tu transporte de manera conveniente para moverte por la ciudad sin problemas.</dd>
+                <dd class="inline">Podrás ver todos los lugares de todo el mundo de otra persona.</dd>
               </div>
             </dl>
           </div>
         </div>
         <div class="flex items-start justify-end lg:order-first">
-          <img src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432" height="1442">
+          <img src="{{ asset('assets/desktop_app.png') }}" alt="Product screenshot" class="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" width="2432" height="1442">
         </div>
       </div>
     </div>
@@ -162,29 +157,30 @@
   <div class="bg-white py-24 sm:py-32">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div class="mx-auto max-w-2xl lg:mx-0">
-        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Descubre los Planes Perfectos para tu Estadía:</h2>
-        <p class="mt-6 text-base leading-7 text-gray-600">Explora nuestros planes cuidadosamente diseñados para asegurarte una experiencia inolvidable en [Nombre de la Ciudad]. Ya sea que estés aquí por unos días o planees una larga estadía, tenemos opciones para satisfacer todos tus intereses y presupuestos. Desde recorridos culturales hasta emocionantes aventuras al aire libre, encontrarás el plan perfecto para ti..</p>
+        <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">La aplicación de tus sueños, es gratis</h2>
+        <p class="mt-6 text-base leading-7 text-gray-600">¿Te imaginas tener la aplicación perfecta, diseñada a medida para tus necesidades, sin tener que pagar ni un centavo? ¡Es posible! Nuestra plataforma te ofrece la oportunidad de crear la aplicación de tus sueños de forma gratuita. ¡Aprovecha esta oportunidad y haz una reseña hoy mismo!</p>
       </div>
       <div class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end">
         <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start">
-          <p class="flex-none text-3xl font-bold tracking-tight text-gray-900">Planes Personalizados</p>
+          <p class="flex-none text-3xl font-bold tracking-tight text-gray-900">Instagram de lugares</p>
           <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-            <p class="text-lg font-semibold tracking-tight text-gray-900">¿Tienes algo específico en mente?</p>
-            <p class="mt-2 text-base leading-7 text-gray-600"> ¡No hay problema! Trabajaremos contigo para crear un plan personalizado </p>
+            <p class="text-lg font-semibold tracking-tight text-gray-900">¿Reseñas de lugares de una manera simple?</p>
+            <p class="mt-2 text-base leading-7 text-gray-600"> Simplicidad en las reseñas de lugares: nuestra solución hace que compartir experiencias sea fácil y sin complicaciones. ¡Descúbrelo ahora!</p>
           </div>
         </div>
         <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44">
-          <p class="flex-none text-3xl font-bold tracking-tight text-white">Planes Culturales</p>
+          <p class="flex-none text-3xl font-bold tracking-tight text-white">Millones de personas probarán OpenTravels</p>
           <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-            <p class="text-lg font-semibold tracking-tight text-white">Sumérgete en la rica historia y cultura de [Nombre de la Ciudad] con nuestros fascinantes recorridos culturales. </p>
-            <p class="mt-2 text-base leading-7 text-gray-400"> Visita monumentos emblemáticos, museos impresionantes y sitios históricos que te transportarán en el tiempo. Nuestros guías expertos te llevarán a través de siglos de historia y te contarán historias que te dejarán sin aliento..</p>
+            <p class="text-lg font-semibold tracking-tight text-white">¿Qué esperas para probarlo tú?</p>
+            <p class="mt-2 text-base leading-7 text-gray-400"> Únete a OpenTravels y comienza a compartir tus experiencias en tus lugares favoritos de manera fácil y gratuita.</p>
           </div>
         </div>
         <div class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-emerald-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28">
-          <p class="flex-none text-3xl font-bold tracking-tight text-white">Planes Familiares:</p>
+          <p class="flex-none text-3xl font-bold tracking-tight text-white">Tu aplicación única de lugares</p>
           <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-            <p class="text-lg font-semibold tracking-tight text-white">Disfruta de momentos inolvidables en familia con nuestros planes especialmente diseñados para todas las edades.</p>
-            <p class="mt-2 text-base leading-7 text-emerald-200">Desde parques temáticos hasta zoológicos, hay actividades divertidas y educativas para cada miembro de la familia. Crear recuerdos juntos nunca ha sido tan fácil con nuestras opciones de entretenimiento para toda la familia.</p>
+            <p class="text-lg font-semibold tracking-tight text-white">OpenTravels, el proyecto de código abierto, gratuito, que te permitirá subir reseñas a tus lugares favoritos.</p>
+            <p class="mt-2 text-base leading-7 text-emerald-200">Descubre OpenTravels: la plataforma de código abierto y gratuita que facilita compartir tus experiencias en tus lugares favoritos. Únete ahora y comparte tus reseñas con el mundo."
+            </p>
           </div>
         </div>
       </div>
@@ -203,9 +199,7 @@
           <div>
             <h2 class="text-3xl font-bold tracking-tight text-gray-900">Ponerse en contacto</h2>
             <p class="mt-4 leading-7 text-gray-600">
-              Conecta con Otros Turistas y Descubre Sus Locaciones Favoritas:
-              
-              ¡Haz nuevos amigos y comparte experiencias con otros turistas mientras exploras [Nombre de la Ciudad]! </p>
+              Mejoras o sugerencias para nuestra aplicación, todo es bienvenido, nuestro de grupo de desarrolladores se pondrán a trabajar en ello y podrás tener una aplicación a tu medida.</p>
           </div>
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
             <div class="rounded-2xl bg-gray-50 p-10">
@@ -350,12 +344,12 @@
   <div class="bg-white">
     <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
       <div class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
-        <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">¡Descubre OPENTRAVELS y Mejora tu Experiencia de Viaje!</h2>
-        <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">¡Es gratis! Descarga nuestra aplicación móvil o visita nuestro sitio web para comenzar tu aventura con [Nombre del Sistema]. ¡Te garantizamos que tu viaje será más emocionante, más fácil y más memorable con nosotros!</p>
+        <h2 class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl">¡Descubre OpenTravels y Mejora tu Experiencia de Viaje!</h2>
+        <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">¡Es gratis! ¡Te garantizamos que tu viaje será más emocionante, más fácil y más memorable con nosotros!</p>
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <a href="#" class="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">Iniciar aventura
-           </a>
-      
+          </a>
+
         </div>
         <svg viewBox="0 0 1024 1024" class="absolute left-1/2 top-1/2 -z-10 h-[64rem] w-[64rem] -translate-x-1/2 [mask-image:radial-gradient(closest-side,white,transparent)]" aria-hidden="true">
           <circle cx="512" cy="512" r="512" fill="url(#827591b1-ce8c-4110-b064-7cb85a0b1217)" fill-opacity="0.9" />

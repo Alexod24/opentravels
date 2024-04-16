@@ -5,7 +5,7 @@
     <div class="flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div class="sm:mx-auto sm:w-full sm:max-w-md">
             <img class="mx-auto h-10 w-auto" src="{{ asset('assets/logo.png') }}" alt="OpenTravels">
-            <h2 class="mt-6 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Sign in to your account
+            <h2 class="mt-6 text-center text-2xl font-bold leading-9 tracking-tight text-gray-900">Ingresar
             </h2>
         </div>
 
@@ -13,19 +13,19 @@
             <div class="bg-white px-6 py-12 shadow sm:rounded-lg sm:px-12">
                 <form class="space-y-6" action="#" method="POST">
                     <div>
-                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Email
-                            address</label>
+                        <label for="email" class="block text-sm font-medium leading-6 text-gray-900">Dirección de correo
+                            electrónico</label>
                         <div class="mt-2">
                             <input id="email" name="email" type="email" autocomplete="email" required
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class=" px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
                     <div>
-                        <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Password</label>
+                        <label for="password" class="block text-sm font-medium leading-6 text-gray-900">Contraseña</label>
                         <div class="mt-2">
                             <input id="password" name="password" type="password" autocomplete="current-password" required
-                                class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
+                                class="px-4 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-emerald-600 sm:text-sm sm:leading-6">
                         </div>
                     </div>
 
@@ -33,12 +33,12 @@
                         <div class="flex items-center">
                             <input id="remember-me" name="remember-me" type="checkbox"
                                 class="h-4 w-4 rounded border-gray-300 text-emerald-600 focus:ring-emerald-600">
-                            <label for="remember-me" class="ml-3 block text-sm leading-6 text-gray-900">Remember me</label>
+                            <label for="remember-me" class="ml-3 block text-sm leading-6 text-gray-900">Recuerdame</label>
                         </div>
 
                         <div class="text-sm leading-6">
-                            <a href="#" class="font-semibold text-emerald-600 hover:text-emerald-500">Forgot
-                                password?</a>
+                            <a href="#" class="font-semibold text-emerald-600 hover:text-emerald-500">¿Olvidaste tu
+                                contraseña?</a>
                         </div>
                     </div>
 
