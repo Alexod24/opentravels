@@ -1,35 +1,27 @@
 <?php
 
+use App\Http\Controllers\WebApp;
+use App\Http\Controllers\WebPage;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('web.web');
-});
-Route::get('/login', function () {
-    return view('web.login');
-});
-Route::get('/register', function () {
-    return view('web.register');
-});
-Route::get('/places', function () {
-    return view('app.places');
-});
-Route::get('/create-place', function () {
-    return view('app.createPlace');
-});
-Route::get('/place/{id}', function ($id) {
-    return view('app.place', ['id' => $id]);
-});
-Route::get('/my-places', function () {
-    return view('app.placesOfSelf');
-});
-Route::get('/visitors', function () {
-    return view('app.visitors');
-});
-Route::get('/settings', function () {
-    return view('app.settings');
-});
+// Web routes
+Route::get('/', [WebPage::class, 'index']);
+Route::get('/login', [WebPage::class, 'login']);
+Route::get('/register', [WebPage::class, 'register']);
 
-Route::get('/404', function () {
+// App routes
+Route::get('/places', [WebApp::class, 'places']);
+Route::get('/create-place', [WebApp::class, 'createPlace']);
+Route::get('/place/{id}', [WebApp::class, 'place']);
+Route::get('/my-places', [WebApp::class, 'myPlaces']);
+Route::get('/visitors', [WebApp::class, 'visitors']);
+Route::get('/settings', [WebApp::class, 'settings']);
+
+// Error 404
+Route::fallback(function () {
     return view('web.404');
 });
+
+// User routes
+Route::post('/user', UserController::class . '@store')->name('create-user');
